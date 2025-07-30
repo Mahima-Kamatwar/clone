@@ -217,4 +217,10 @@ body {
 .card{
     height: 150px;
     width: 50%;
+    position: relative;
+    transition: all 0.5 ease;
+}
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: black;
 }
